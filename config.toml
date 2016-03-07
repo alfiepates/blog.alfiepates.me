@@ -6,3 +6,6 @@ theme = "liquorice"
 [params]
 	author = "Alfie Pates"
 	copyright = " "
+
+[taxonomies]
+category = "categories"
