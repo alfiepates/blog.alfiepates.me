@@ -1,0 +1,8 @@
+baseurl = "http://blog.alfiepates.me/"
+languageCode = "en-gb"
+title = "Alfie's blog or whatever"
+theme = "liquorice"
+
+[params]
+	author = "Alfie Pates"
+	copyright = " "
