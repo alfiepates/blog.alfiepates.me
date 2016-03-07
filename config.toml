@@ -1,4 +1,4 @@
-baseurl = "http://blog.alfiepates.me/"
+baseurl = "https://blog.alfiepates.me/"
 languageCode = "en-gb"
 title = "Alfie's blog or whatever"
 theme = "liquorice"
