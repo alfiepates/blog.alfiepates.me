@@ -44,3 +44,7 @@ Caveats
 -------
 
 Since this passphrase system is based on "real words", an obvious weakness is that the passphrase must be stored (at least locally) as plaintext. If the passphrase needs to be transmitted, then I'd suggest using a key derivation function such as `scrypt` on the passphrase locally and transmitting the generated key.
+
+There is also the obvious caveat that this system is _extremely_ vulnerable to shoulder-surfing. If Eve can see the grid of words, then all bets are off. In theory, this could be combat by having a longer passphrase (for example, `Correct Nose Horse Shop Battery Staple`), and then Bob asking Alice for a subset of those words. While this wouldn't secure repeated entries of the same passprase, it would certainly protect against single instances of shoulder-surfing.
+
+![Grid of words 2](/img/2016-03-30-dictating-passwords-3.jpeg)
