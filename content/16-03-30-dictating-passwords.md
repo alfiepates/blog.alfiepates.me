@@ -23,7 +23,7 @@ Is it possible to securely dictate a password in such a way that an eavesdropper
 
 > Alice is attempting to prove her identity to Bob. Eve can see what Alice is saying to Bob, but can't see what Bob is saying back. How does Alice prove her identity in such a way that Eve can't "prove" to be Alice after the fact?
 
-I'm also gonna propose another constraint: Alice is a human, not a computer. Therefore, Alice cannot perform any 'computations', which include complex string manipulation and suchlike - no Diffie–Hellman here!
+I'm also going to propose another constraint: Alice is a human, not a computer. Therefore, Alice cannot perform any 'computations', which include complex string manipulation and suchlike - no Diffie–Hellman here!
 
 After some thought, I have formulated a concept which seems to satisfy these requirements. It is as follows:
 
@@ -38,7 +38,7 @@ Alice then reads aloud the coordinates for the words in her passphrase.
 
 Bob is able to verify the passphrase, while Alice hasn't disclosed any information which allows Eve to construct her passphrase.
 
-There! Simple! As I said above, I'm not a cryptographer and neither are you (unless you are) therefore _please_ do not implement this in your own code. It's a concept, it's an idea, and if you are qualified I'd encourage you to write some actual code that makes this happen in a secure fashion: Accessibility is important. 
+There! Simple! As I said above, I'm not a cryptographer and neither are you (unless you are) therefore _please_ do not implement this in your own code. It's a concept, it's an idea, and if you are qualified I'd encourage you to write some actual code that makes this happen in a secure fashion: Accessibility is important.
 
 Caveats
 -------
