@@ -22,7 +22,7 @@ Code is a method of communication between developers, much as this blogpost is a
 what if the entire blogpost looked just like this itd be pretty hard to read right well thats what youre doing with your badly formatted code
 ```
 
-Okay, maybe that was a bit hyperbolic, but I _have_ run across code that reads just like that. When I see code that looks liek that, I can't get into a rhythm, my brain shuts off, and I tend to go make a cup of tea and stop contributing to your project. 
+Okay, maybe that was a bit hyperbolic, but I _have_ run across code that reads just like that. When I see code that looks like that, I can't get into a rhythm, my brain shuts off, and I tend to go make a cup of tea and stop contributing to your project. 
 
 ## Tabs n' Spaces
 
