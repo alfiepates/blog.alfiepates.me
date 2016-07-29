@@ -11,7 +11,8 @@ I hate style guides. All they seem to do is start arguments about style gudes, a
 
 Here's what I do, and what I think you should do too.
 
-## Make it readable
+## Make it readable
+
 
 The most important thing about code is that it must be readable. If I want to patch your code, I'd quite like to be able to look at said code and figure out what the hell it does.
 
@@ -23,7 +24,8 @@ what if the entire blogpost looked just like this itd be pretty hard to read rig
 
 Okay, maybe that was a bit hyperbolic, but I _have_ run across code that reads just like that. When I see code that looks liek that, I can't get into a rhythm, my brain shuts off, and I tend to go make a cup of tea and stop contributing to your project. 
 
-## Tabs n' Spaces
+## Tabs n' Spaces
+
 
 Ugh, Tabs vs Spaces. I've literally lost friends over this argument. 
 
@@ -35,7 +37,7 @@ These are values that I've found work _for me_, personally. They may not work fo
 
 So many languages' style guides dictate using spaces for indentation. Python is one notable example, insisting on two spaces for indentation, and to be completely honest I think that's absurd. Stuff like indentation is completely subjective, and therefore it makes sense to use the character which _doesn't explicitly define an indent size_. 
 
-I hear the argument _"Well, spaces are better because my editor doesn't let you define tab width!"_ quite often. I hate to break it to you, but your editor is crap. Give [Brackets](https://brackets.io) a go. I love it, you probably will too.
+I hear the argument _"Well, spaces are better because my editor doesn't let you define tab width!"_ quite often. I hate to break it to you, but your editor is crap. Give [Brackets](https://brackets.io) a go. I love it, you probably will too. If Brackets doesn't butter your muffin, then there are many other great editors; I use `vim` on my servers, and I know several people who sing the praises of Atom, even if it doesn't float my personal boat!
 
 ### Alignment
 
@@ -56,7 +58,8 @@ I generally put my comments at col 50, or if not on the next available multiple-
 
 You know how I do this? _Spaces._ Spaces are always 1col wide, and in this case that's exactly the desired behaviour: I'm aligning by columns relative to the right-most code character!
 
-_**Note:** I really wish editors aligned right-most comments automatically. I don't _want_ to force my comment alignment preference on you, but right now that's what we have to put up with._
+_**Note:** I really wish editors aligned right-most comments automatically. I don't **want** to force my comment alignment preference on you, but right now that's what we have to put up with._
+
 
 The same goes for arrays/list alignment/whatever, although it's 2AM and I'm slightly too tired to articulate some example code. The basic gist involves tab-indenting to the same indent level as the current context, and then space-aligning. Watch this space for an example code snippet, when I can be bothered.
 
@@ -77,9 +80,9 @@ getBigger ++;
 getBigger = getBigger + 1;
 ```
 
-These two lines do exactly the same thing, but one of them describes what it does, and the other doesn't. Sure, if you _know_ javascript shorthand it's not a problem, but what happens if you don't know the shorthand all that well? Well, you run into a problem, you have to pull up the docs, figure out what `++` does, and by the time you've done that you've probably lost your flow. 
+These two lines do exactly the same thing, but one of them describes what it does, and the other doesn't. Sure, if you _know_ javascript shorthand it's not a problem, but what happens if you don't know the shorthand all that well? Well, you run into a problem, you have to pull up the docs, figure out what `++` does, and by the time you've done that you've probably lost your flow.
 
-## Line length restrictions are silly
+## Line length restrictions are silly
 
 It's 2016. I have a huge monitor. My editor wraps long lines sensibly. I spread my code out over many shorter lines. 
 
